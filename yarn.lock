@@ -224,84 +224,83 @@
     semver "^5.3.0"
     semver-intersect "^1.1.2"
 
-"@sentry/browser@4.0.0-beta.9":
-  version "4.0.0-beta.9"
-  resolved "https://registry.yarnpkg.com/@sentry/browser/-/browser-4.0.0-beta.9.tgz#1ec41cdac2dfaf509651d9ffc41b25d9c009bce9"
+"@sentry/browser@~4.1.1":
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/@sentry/browser/-/browser-4.1.1.tgz#9db1e765bf2afcbe0fb44b028abdf5c74d6e77b0"
   dependencies:
-    "@sentry/core" "4.0.0-beta.9"
-    "@sentry/hub" "4.0.0-beta.9"
-    "@sentry/minimal" "4.0.0-beta.9"
-    "@sentry/types" "4.0.0-beta.9"
-    "@sentry/utils" "4.0.0-beta.9"
+    "@sentry/core" "4.1.1"
+    "@sentry/types" "4.1.0"
+    "@sentry/utils" "4.1.1"
 
-"@sentry/core@4.0.0-beta.9":
-  version "4.0.0-beta.9"
-  resolved "https://registry.yarnpkg.com/@sentry/core/-/core-4.0.0-beta.9.tgz#5b0f4f5693165731136d196cc6e011b555230f20"
+"@sentry/core@4.1.1", "@sentry/core@~4.1.1":
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/@sentry/core/-/core-4.1.1.tgz#013ee6ee32033b9a404da5bd27f5a2417dcb1a89"
   dependencies:
-    "@sentry/hub" "4.0.0-beta.9"
-    "@sentry/minimal" "4.0.0-beta.9"
-    "@sentry/types" "4.0.0-beta.9"
-    "@sentry/utils" "4.0.0-beta.9"
+    "@sentry/hub" "4.1.1"
+    "@sentry/minimal" "4.1.1"
+    "@sentry/types" "4.1.0"
+    "@sentry/utils" "4.1.1"
 
-"@sentry/electron@^0.7.0":
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/@sentry/electron/-/electron-0.7.0.tgz#ad456c3319c995d84a470304d9890803863587ac"
+"@sentry/electron@^0.12.0":
+  version "0.12.0"
+  resolved "https://registry.yarnpkg.com/@sentry/electron/-/electron-0.12.0.tgz#35e838a2f258f6e3cd92b20e97d9ddd63533d5d9"
   dependencies:
-    "@sentry/browser" "4.0.0-beta.9"
-    "@sentry/core" "4.0.0-beta.9"
-    "@sentry/hub" "4.0.0-beta.9"
-    "@sentry/minimal" "4.0.0-beta.9"
-    "@sentry/node" "4.0.0-beta.9"
-    "@sentry/types" "4.0.0-beta.9"
-    "@sentry/utils" "4.0.0-beta.9"
-    electron-fetch "^1.1.0"
-    form-data "^2.3.2"
-    util.promisify "^1.0.0"
+    "@sentry/browser" "~4.1.1"
+    "@sentry/core" "~4.1.1"
+    "@sentry/minimal" "~4.1.1"
+    "@sentry/node" "~4.1.1"
+    "@sentry/types" "~4.0.0"
+    "@sentry/utils" "~4.0.5"
+    electron-fetch "1.1.0"
+    form-data "2.3.2"
+    util.promisify "1.0.0"
 
-"@sentry/hub@4.0.0-beta.9":
-  version "4.0.0-beta.9"
-  resolved "https://registry.yarnpkg.com/@sentry/hub/-/hub-4.0.0-beta.9.tgz#a90d666a30d16e6e43b930b49bee46999dbd8a78"
+"@sentry/hub@4.1.1":
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/@sentry/hub/-/hub-4.1.1.tgz#ef093fe4f42587c7868b66299584b5a9f9d67fc6"
   dependencies:
-    "@sentry/types" "4.0.0-beta.9"
-    "@sentry/utils" "4.0.0-beta.9"
+    "@sentry/types" "4.1.0"
+    "@sentry/utils" "4.1.1"
 
-"@sentry/minimal@4.0.0-beta.9":
-  version "4.0.0-beta.9"
-  resolved "https://registry.yarnpkg.com/@sentry/minimal/-/minimal-4.0.0-beta.9.tgz#d9b95e6586f1be30375c123c4a69b05e18af5669"
+"@sentry/minimal@4.1.1", "@sentry/minimal@~4.1.1":
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/@sentry/minimal/-/minimal-4.1.1.tgz#46d8a35e0d82b0903ed83dba21d8344b601145a5"
   dependencies:
-    "@sentry/hub" "4.0.0-beta.9"
-    "@sentry/types" "4.0.0-beta.9"
+    "@sentry/hub" "4.1.1"
+    "@sentry/types" "4.1.0"
 
-"@sentry/node@4.0.0-beta.9":
-  version "4.0.0-beta.9"
-  resolved "https://registry.yarnpkg.com/@sentry/node/-/node-4.0.0-beta.9.tgz#4ba35faa585c17c24e6755f6607fde95e8516433"
+"@sentry/node@~4.1.1":
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/@sentry/node/-/node-4.1.1.tgz#a4d268e8a63c2a91e911e37fd3140f36ac10c5b6"
   dependencies:
-    "@sentry/core" "4.0.0-beta.9"
-    "@sentry/hub" "4.0.0-beta.9"
-    "@sentry/minimal" "4.0.0-beta.9"
-    "@sentry/types" "4.0.0-beta.9"
-    "@sentry/utils" "4.0.0-beta.9"
-    "@types/cookie" "0.3.1"
-    "@types/md5" "2.1.32"
-    "@types/stack-trace" "0.0.29"
+    "@sentry/core" "4.1.1"
+    "@sentry/hub" "4.1.1"
+    "@sentry/types" "4.1.0"
+    "@sentry/utils" "4.1.1"
     cookie "0.3.1"
     lsmod "1.0.0"
     md5 "2.2.1"
     stack-trace "0.0.10"
 
-"@sentry/types@4.0.0-beta.9":
-  version "4.0.0-beta.9"
-  resolved "https://registry.yarnpkg.com/@sentry/types/-/types-4.0.0-beta.9.tgz#1a2f88bfcf62356372a60359b5204e94c079c27d"
+"@sentry/types@4.0.6", "@sentry/types@~4.0.0":
+  version "4.0.6"
+  resolved "https://registry.yarnpkg.com/@sentry/types/-/types-4.0.6.tgz#421478df17415802baa4d5e2d3db246e559a0fad"
 
-"@sentry/utils@4.0.0-beta.9":
-  version "4.0.0-beta.9"
-  resolved "https://registry.yarnpkg.com/@sentry/utils/-/utils-4.0.0-beta.9.tgz#99c61c44280f36b557387d3d37d31240545a7700"
+"@sentry/types@4.1.0":
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/@sentry/types/-/types-4.1.0.tgz#ebffb9857abbecaad5d1c00152a50f72ac9757a5"
+
+"@sentry/utils@4.1.1":
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/@sentry/utils/-/utils-4.1.1.tgz#5624517d582c870348f234df27c509db95d4fdc6"
   dependencies:
-    "@sentry/types" "4.0.0-beta.9"
+    "@sentry/types" "4.1.0"
 
-"@types/cookie@0.3.1":
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/@types/cookie/-/cookie-0.3.1.tgz#720a756ea8e760a258708b52441bd341f1ef4296"
+"@sentry/utils@~4.0.5":
+  version "4.0.6"
+  resolved "https://registry.yarnpkg.com/@sentry/utils/-/utils-4.0.6.tgz#77ca73fb7d2c436914d2dd84fa975dd5b618246d"
+  dependencies:
+    "@sentry/types" "4.0.6"
 
 "@types/d3-array@*", "@types/d3-array@1.2":
   version "1.2.1"
@@ -476,19 +475,9 @@
   dependencies:
     "@types/jasmine" "*"
 
-"@types/md5@2.1.32":
-  version "2.1.32"
-  resolved "https://registry.yarnpkg.com/@types/md5/-/md5-2.1.32.tgz#93e23437fcd17a7b9ca98d02aa6002e835842fe8"
-  dependencies:
-    "@types/node" "*"
-
 "@types/mousetrap@^1.6.0":
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/@types/mousetrap/-/mousetrap-1.6.0.tgz#c3951ab98b88ff6093cd0b1e4f8591af439141b8"
-
-"@types/node@*", "@types/node@~10.5.2":
-  version "10.5.2"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.5.2.tgz#f19f05314d5421fe37e74153254201a7bf00a707"
 
 "@types/node@^6.0.46":
   version "6.0.114"
@@ -498,6 +487,10 @@
   version "8.10.21"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-8.10.21.tgz#12b3f2359b27aa05a45d886c8ba1eb8d1a77e285"
 
+"@types/node@~10.5.2":
+  version "10.5.2"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.5.2.tgz#f19f05314d5421fe37e74153254201a7bf00a707"
+
 "@types/q@^0.0.32":
   version "0.0.32"
   resolved "https://registry.yarnpkg.com/@types/q/-/q-0.0.32.tgz#bd284e57c84f1325da702babfc82a5328190c0c5"
@@ -505,10 +498,6 @@
 "@types/selenium-webdriver@^3.0.0":
   version "3.0.10"
   resolved "https://registry.yarnpkg.com/@types/selenium-webdriver/-/selenium-webdriver-3.0.10.tgz#e98cc6f05b4b436277671c784ee2f9d05a634f9b"
-
-"@types/stack-trace@0.0.29":
-  version "0.0.29"
-  resolved "https://registry.yarnpkg.com/@types/stack-trace/-/stack-trace-0.0.29.tgz#eb7a7c60098edb35630ed900742a5ecb20cfcb4d"
 
 "@webassemblyjs/ast@1.4.3":
   version "1.4.3"
@@ -2778,7 +2767,7 @@ electron-download@^3.0.1:
     semver "^5.3.0"
     sumchecker "^1.2.0"
 
-electron-fetch@^1.1.0:
+electron-fetch@1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/electron-fetch/-/electron-fetch-1.1.0.tgz#74b0ea547fe149620d38596a84fb104d34218e31"
   dependencies:
@@ -3400,7 +3389,7 @@ forever-agent@~0.6.1:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/forever-agent/-/forever-agent-0.6.1.tgz#fbc71f0c41adeb37f96c577ad1ed42d8fdacca91"
 
-form-data@^2.3.2, form-data@~2.3.0, form-data@~2.3.1:
+form-data@2.3.2, form-data@~2.3.0, form-data@~2.3.1:
   version "2.3.2"
   resolved "https://registry.yarnpkg.com/form-data/-/form-data-2.3.2.tgz#4970498be604c20c005d4f5c23aecd21d6b49099"
   dependencies:
@@ -8395,7 +8384,7 @@ util-extend@^1.0.1:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/util-extend/-/util-extend-1.0.3.tgz#a7c216d267545169637b3b6edc6ca9119e2ff93f"
 
-util.promisify@1.0.0, util.promisify@^1.0.0:
+util.promisify@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/util.promisify/-/util.promisify-1.0.0.tgz#440f7165a459c9a16dc145eb8e72f35687097030"
   dependencies:
